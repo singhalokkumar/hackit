@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="/register/enterpreneur/page_2/theme.css" type="text/css">
+</head>
+
+<body>
+  <div class="py-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto col-lg-6 col-10">
+          <h1>Enter Details</h1>
+          <form class="text-left" method="POST" action="/register/enterpreneur/2">
+            <div class="form-group"> <label for="form16">Company Name</label> <input type="text" name="company"class="form-control" id="form16"> </div>
+            <div class="form-group"> <label for="form17">Description</label> <input type="text" name="description"class="form-control" id="form17"> </div>
+            <div class="form-group"> <label for="form18">Founder Name</label> <input type="text" name="founder"class="form-control" id="form18"> </div>
+            <div class="form-row">
+              <div class="form-group col-md-12"><label for="form20">Foundation Year</label> <input type="text" name="foundation" class="form-control" id="form19" placeholder="YYYY">
+                <div class="form-group"><label>Funded/Bootstrapped</label><input type="text" name="founded" class="form-control" id="form26"></div>
+                <div class="form-group"><label>Location</label><input type="text" name="location" class="form-control" id="form22"></div>
+                <div class="form-group"><label>Total Funds Collected</label><input type="text" name="total" class="form-control" id="form24"></div>
+                <div class="form-group"><label>Stakeholders</label><input type="text" name="stackholders" class="form-control" id="form25"></div>
+                <label>Source Of Funding</label>
+                <form method="POST" action="/viewreg3">
+                  <select class="form-control" name="select3" id="sel3">
+                    <option value="" selected="" disabled="" hidden="" >select</option>
+                    <option>Private Equity</option>
+                    <option>Venture Capitals</option>
+                    <option>Angel Investors</option>
+                    <option>Crowdfunding</option>
+                    <option>Banker</option>
+                    <option>Incubators</option>
+                    <option>Philanthropist</option>
+                    <option>Others</option>
+                  </select>
+                  </form>
+                <button type="submit" class="btn btn-primary">Goto Next step</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </div>
+  </body>
+
+</html>

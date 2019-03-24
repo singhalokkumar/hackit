@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="/index/index.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <%- include('../partials/nav') %>   
+  <div class="text-center text-white align-items-center d-flex py-2" style="	background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(/index/cover.jpg);	background-position: center center, center center;	background-size: cover, cover;	background-repeat: repeat, repeat;">
+    <div class="container py-5">
+      <div class="row">
+        <div class="mx-auto col-lg-8 col-md-10">
+          <h1 class="display-3 mb-4 text-primary" >More important than starting any startup, is getting to know a lot of potential co-founders</h1>
+          <!-- <a class="btn btn-lg mx-1 btn-outline-primary" href="#">About Us.</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-2" >
+    <div class="container py-2">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-4 text-center text-primary">So far...</h1>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center text-center ">
+        <div class="p-3 col-lg-3 col-md-4 shadow-none">
+          <div class="card border-0">
+            <div class="card-body p-4"> <i class="d-block fa mb-2 text-muted fa-4x fa-inr"></i>
+              <h2 class="mt-3"> <b>Invested</b></h2>
+              <h4 class="my-3"><b>Rs. 2304892</b></h4>
+              <a class="btn mt-3 btn-primary btn-lg" href="/investor">Invest<br></a>
+            </div>
+          </div>
+        </div>
+        <div class="p-3 col-lg-3 col-md-4">
+          <div class="card border-0">
+            <div class="card-body p-4 shadow-none"> <i class="d-block fa mb-2 text-muted fa-4x fa-user-circle-o"></i>
+              <h2 class="mt-3"> <b>Start-up Registered</b></h2>
+              <h4 class="my-3">2342</h4>
+              <a class="btn mt-3 btn-primary" href="/register/enterpreneur/1">Get Registered</a>
+            </div>
+          </div>
+        </div>
+        <div class="p-3 col-lg-3 col-md-4">
+          <div class="card border-0">
+            <div class="card-body p-4 shadow-none"> <i class="d-block fa mb-2 text-muted fa-4x fa-shopping-bag"></i>
+              <h2 class="mt-3"> <b>Follow-up</b></h2>
+              <h4 class="my-3"><b>32304</b></h4>
+              <a class="btn mt-3 btn-primary" href="#">Fund</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
